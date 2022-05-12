@@ -7,7 +7,7 @@ body {
     color: rgb(33, 179, 14);
 }
 
-section {
+.flexible-content {
     display: flex;
 }
 
@@ -44,4 +44,13 @@ section {
 .Dream-Big {
     background-image: url(img/site2.png);
     background-repeat: no-repeat;
+}
+
+.ex {
+    margin-left: 2%;
+    color: green;
+}
+
+.ex:hover {
+    color: red;
 }
